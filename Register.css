@@ -1,0 +1,90 @@
+.register-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.register-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.register-card h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.register-card p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.register-card input,
+.register-card select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.role-buttons button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f1f1f1;
+  transition: background 0.3s;
+}
+
+.role-buttons button.active {
+  background: #1976d2;
+  color: white;
+}
+
+.register-btn {
+  background: #1976d2;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-btn:hover {
+  background: #125ea9;
+}
+
+.back-link {
+  display: block;
+  margin-top: 15px;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
